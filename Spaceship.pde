@@ -13,12 +13,12 @@ class Spaceship extends Floater
     myXspeed = 0;
     myYspeed = 0;
     myPointDirection = 0;
-    myCenterX = 300;
-    myCenterY = 300;
-    myColor = color(255,255,255);
+    myCenterX = 250;
+    myCenterY = 250;
+    myColor = color(236,186,247);
   }
-  public double getmyCenterX(){return myCenterX;}
-  public double getmyCenterY(){return myCenterY;}
+  public double getmyCenterX(){return (float)myCenterX;}
+  public double getmyCenterY(){return (float)myCenterY;}
   public double getmyPointDirection(){return myPointDirection;}
   public double getmyXspeed(){return myXspeed;}
   public double getmyYspeed(){return myYspeed;}
